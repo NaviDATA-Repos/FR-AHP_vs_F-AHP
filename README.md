@@ -19,7 +19,8 @@ Every script runs standalone from the command line; no proprietary software or h
 | `Fuzzy‑Rough AHP‑case2.py` | End‑to‑end pipeline that builds the **Fuzzy‑Rough AHP** hierarchy for Case 2, producing criterion and alternative weights plus overall scores. |
 | `FullSensitivity‑case2.py` | **End‑to‑end Monte‑Carlo** experiment: perturbs every TFN by ±10 %, recomputes the full FR‑AHP pipeline, and records rank switches and winner–runner gaps. |
 | `sensitivity.py` | Monte‑Carlo **robustness check** that adds ±10 % noise only to the aggregated criterion weights and compares Fuzzy AHP with Fuzzy‑Rough AHP. |
-| `Defuzzification and Normalize Fuzzy Weights.py` <br>*(kept for backward compatibility)* | Older helper used in early drafts; superseded by `Defuzzification.py` but left here for completeness. |
+| `Defuzzification and Normalize Fuzzy Weights.py` <br>*(kept for backward compatibility)* | Older helper used in early drafts; superseded by `Defuzzification.py` but left here for 
+| Wilcoxon & Spearman-R | Validation support |
 
 > **Note:** Scripts end with printed summaries; redirect output to a file if you prefer permanent logs.
 
